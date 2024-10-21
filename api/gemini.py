@@ -2,7 +2,7 @@ from api.prompt import Prompt
 import os
 import google.generativeai as genai
 
-genai.configure(api_key = os.getenv("GEMINI_API_KEY"))
+genai.configure(api_key = os.getenv("AIzaSyAWGZ8os3E4yPcuHjzbLwGoqRW3HZYiYCM"))
 
 class Gemini:
     def __init__(self):

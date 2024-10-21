@@ -5,8 +5,8 @@ from api.gemini import Gemini
 import os
 
 app = FastAPI()
-line_bot_api = LineBotApi(os.getenv("LINE_CHANNEL_ACCESS_TOKEN"))
-line_handler = WebhookHandler(os.getenv("LINE_CHANNEL_SECRET"))
+line_bot_api = LineBotApi(os.getenv("9t8VTx9Tc3TIP2ZZKe+IFXpraz8SxgcrA6kpq8bBCtVKfBF2ETCDukaX9GFKgTirk50B7KPL9L39Qzuf+UwjjDVKenm6fAlinbL5ZFtFbtip+rhhjZ3/vSMroBX2FAOWsnxelOYPCWHL8liwy4hG1AdB04t89/1O/w1cDnyilFU="))
+line_handler = WebhookHandler(os.getenv("7020e85166e4acc935491f45759e21f7"))
 working_status = os.getenv("DEFALUT_TALKING", default = "true").lower() == "true"
 gemini = Gemini()
 
